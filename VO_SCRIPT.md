@@ -1,33 +1,29 @@
-# Voiceover script — Video 1: "My model beats the spread 64%"
+# Voiceover script — Video 1: Channel intro ("welcome")
 
-Read straight through, one breath per beat. Target ~30s. Punchy, confident, not hype-y.
-Pause a beat at each `—`. The bracketed cue is what's on screen while you talk.
-(Optional: open beat 2 with your name — "I'm ___, and I build ML models…")
-
----
-
-**[HOOK — "BEATS THE SPREAD" + 64.2% counts up]**
-> My NFL model beats the spread 64% — on its top picks.
-
-**[ABOUT — "I BUILD MODELS FOR A LIVING"]**
-> I build machine-learning models for a living, so I built one for the NFL. Every call comes from the data — never a hot take.
-
-**[BAR — a red "52.4%" break-even bar]**
-> That number matters, because to actually make money betting the NFL, you only need to clear about fifty-two point four percent.
-
-**[GAP — green 64.2% bar next to red 52.4% bar]**
-> Sixty-four versus fifty-two. That gap is the entire game — and most so-called experts never clear the line at all.
-
-**[HONEST — three green check-marks appear]**
-> And this isn't cherry-picked. It's out-of-sample: the model was trained on past seasons, then tested on games it had never seen, from twenty-eighteen through twenty-twenty-five.
-
-**[FLOOR — "592 picks", then "60%"]**
-> Almost six hundred picks. And even the pessimistic statistical floor still lands at sixty percent.
-
-**[CTA — "EVERY WEEK" + Follow button]**
-> I'll be posting the model's highest-confidence picks every week. Follow so you don't miss them.
+Read straight through, warm and confident, ~30s. Pause a beat at each `—`.
+The bracketed cue is what's on screen while you talk.
 
 ---
 
-When you've recorded it, save the file as `public/audio/credibility.mp3` (or `.wav`)
-and tell me — I'll sync the visuals to your exact timing and render the final.
+**[HOOK — "THE REAL NUMBERS / NOT HOT TAKES"]**
+> Sports analytics — the real numbers behind the games, no hot takes.
+
+**[INTRO — "I'M JOSEPH" + FOOTBALL · BASKETBALL · SOCCER]**
+> I'm Joseph. Football, basketball, soccer — if there's data in it, we'll break it down.
+
+**[PROOF — site + "64% ATS"]**
+> I recently created a live site modeling the most recent NFL season — fantasy, DFS, and weekly spread predictions. One angle I plan to tackle is spread betting. My models top picks beat the spread better than 64% of the time.
+ 
+**[THE WHY *(the heart — slow down here)* — "IT'S ABOUT THE WHY"]**
+> But I'm not here to just hand you picks. This channel is about the *why* — the analytics behind every call. Come along for the ride.
+
+**[CTA — Follow button]**
+> Drop a follow so you don't miss it — the deep dives start now. Full site's in my bio.
+
+---
+
+Notes:
+- Optional live-result add-on in PROOF if you want it: "…about 64% — and last season, nearly 65%." (That 64.7% is 11/17 in 2025 — real but a small sample, so it's confirmation, not the headline.)
+- When recorded, save to `public/audio/intro.mp3` (or `.wav`) and tell me — I'll retime the beats to your delivery and render the final.
+
+(Video 2 — the "beats the spread 64%" model deep-dive — is built and its script lives in `src/videos/credibility.data.ts`, ready when you want it.)

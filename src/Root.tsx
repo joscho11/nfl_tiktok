@@ -1,5 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Composition } from "remotion";
+import { ChannelIntro } from "./videos/ChannelIntro";
+import { INTRO_DURATION_SECONDS, META as introMeta } from "./videos/intro.data";
 import { ModelCredibility, CREDIBILITY_DURATION_SECONDS } from "./videos/ModelCredibility";
 import { META as credibilityMeta } from "./videos/credibility.data";
 import { LENGTH_TARGETS, type LengthMode } from "./videos/types";
@@ -21,6 +23,7 @@ const guardLength = (label: string, seconds: number, mode: LengthMode) => {
     );
   }
 };
+guardLength(introMeta.id, INTRO_DURATION_SECONDS, introMeta.lengthMode);
 guardLength(credibilityMeta.id, CREDIBILITY_DURATION_SECONDS, credibilityMeta.lengthMode);
 
 /** Dev-only preview so the shared FunnelCTA end card can be eyeballed in isolation. */
@@ -34,6 +37,14 @@ const FunnelCTAPreview: React.FC = () => (
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="ChannelIntro"
+        component={ChannelIntro}
+        durationInFrames={Math.round(INTRO_DURATION_SECONDS * FPS)}
+        fps={FPS}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="ModelCredibility"
         component={ModelCredibility}

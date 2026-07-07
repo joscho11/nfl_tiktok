@@ -27,7 +27,9 @@ export type VideoMeta = {
 
 /** Target runtime windows per mode. `growth` = punchy for follower growth; `rewards` = 60s+ for Creator-Rewards eligibility. */
 export const LENGTH_TARGETS: Record<LengthMode, { min: number; max: number }> = {
-  growth: { min: 20, max: 35 },
+  // growth max is a soft cap for punchiness; 40 leaves room for natural VO delivery
+  // (a channel intro reads a touch longer) while still flagging real bloat.
+  growth: { min: 20, max: 40 },
   rewards: { min: 60, max: 90 },
 };
 
