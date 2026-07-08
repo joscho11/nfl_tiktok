@@ -7,7 +7,9 @@
  * "master's in data science" + "code's on my GitHub" — do NOT name Booz Allen/Northrop.
  * Stat: 64.7% on high-confidence picks (2025 live test, 117 games) — his resume number.
  * Style: hardest hook first + human/personable voice (see [[tiktok-video-style]]).
- * `seconds` are placeholders — re-sync after Joseph re-records the VO.
+ * VO recorded 2026-07-07 (per-beat clips in public/channel-intro/*.wav). `vo` is the
+ * verbatim transcript; `seconds` = each trimmed clip's real duration; captions live in
+ * captions.json (Whisper word-timed, word-for-word to the audio).
  */
 import type { Beat, VideoMeta } from "../shared/types";
 import { DASHBOARD_URL } from "../shared/funnel";
@@ -26,39 +28,49 @@ export const STATS = {
   season: 2025,
 } as const;
 
+/** Footage-less lead-in before the first word, and a breath held after each beat. */
+export const LEAD_IN_SECONDS = 0.2;
+export const INTER_BEAT_GAP = 0.18;
+
 export const BEATS: Beat[] = [
   {
     id: "hook",
-    seconds: 5.5,
+    audio: "hook",
+    seconds: 13.21,
     hook: true,
-    vo: "Everybody online's got a hot take. I've got a model — and I build machine-learning systems for a living.",
-    caption: "Everybody's got a hot take. I've got a model.",
+    vo: "I built a machine-learning model that beats Vegas over 64% of the time. I've also done various projects from Fantasy Football to the World Cup. I'm Joseph, and I hope to share my expertise and insights into sports analytics.",
+    caption: "I built a model that beats Vegas over 64% of the time.",
   },
   {
-    id: "intro",
-    seconds: 8.0,
-    vo: "I'm Joseph. I've got a master's in data science, and I build prediction models professionally — so this isn't some guy with a spreadsheet and a hunch. Football, basketball, soccer — if it's got data, we're breaking it down.",
-    caption: "M.S. Data Science · I build ML models professionally",
+    id: "who",
+    audio: "who",
+    seconds: 12.12,
+    vo: "I have a master's in data science, a bachelor's in computer science, and a minor in statistics. I've always been interested in sports and data, and the goal with this channel is to combine those two loves to create content that people will find interesting.",
+    caption: "M.S. Data Science · B.S. CS · minor in Statistics",
   },
   {
     id: "proof",
-    seconds: 11.0,
-    vo: "I already run a live site modeling the NFL — fantasy, DFS, spreads. Out of sample, its most confident picks beat the spread almost sixty-five percent of the time. And the code's public on my GitHub — nothing to hide.",
-    caption: "64.7% ATS on top picks · code public on GitHub",
+    audio: "proof",
+    seconds: 10.3,
+    vo: "I created an entire live website that hosts my spread, fantasy and DFS predictions. My plan is to update it every week, and not just that, but the model itself is public on my GitHub.",
+    caption: "Live site + open-source on GitHub — nothing to hide",
   },
   {
     id: "why",
-    seconds: 6.5,
-    vo: "But look, I'm not just gonna throw picks at you. I want to show you the why — the actual reasoning behind every call. No vibes, just numbers.",
-    caption: "It's about the WHY — the reasoning behind every call",
+    audio: "why",
+    seconds: 6.37,
+    vo: "But at the end of the day, I'm not here to just hand you picks. This channel is about the why — the analytics behind every call.",
+    caption: "It's about the WHY — the analytics behind every call",
   },
   {
     id: "cta",
-    seconds: 5.0,
+    audio: "cta",
+    seconds: 6.76,
     cta: true,
-    vo: "So follow along. Honestly, this one's gonna be a fun ride.",
-    caption: "Follow along — full site's in my bio.",
+    vo: "Come along through the journey. Drop a follow so you don't miss it. The deep dives start now, check out my website in my bio. Thanks!",
+    caption: "Drop a follow — deep dives start now.",
   },
 ];
 
-export const INTRO_DURATION_SECONDS = BEATS.reduce((s, b) => s + b.seconds, 0);
+export const INTRO_DURATION_SECONDS =
+  LEAD_IN_SECONDS + BEATS.reduce((s, b) => s + b.seconds + INTER_BEAT_GAP, 0);

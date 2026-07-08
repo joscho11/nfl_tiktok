@@ -13,6 +13,8 @@ export type Beat = {
   hook?: boolean;
   /** Mark the closing funnel beat (drives to the dashboard). */
   cta?: boolean;
+  /** Basename of this beat's per-beat VO clip in public/<video>/ (e.g. "hook" -> hook.wav). */
+  audio?: string;
 };
 
 export type VideoMeta = {

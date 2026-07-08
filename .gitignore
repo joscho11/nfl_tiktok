@@ -2,6 +2,10 @@ node_modules/
 out/
 .remotion/
 
+# final/ holds the production-ready release cuts for easy navigation.
+# Keep its README tracked, but the large rendered videos stay local.
+final/*.mp4
+
 # Media assets (voiceover, clips, images) live under public/<video>/ but stay local:
 # personal recordings + third-party (copyrighted) photos/video should never be committed.
 public/**/*.mp3
