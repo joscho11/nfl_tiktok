@@ -3,7 +3,7 @@
 Data-driven sports-analytics TikToks as **pure motion graphics** (and footage-with-charts),
 built with [Remotion](https://remotion.dev). Content is analysis/education framed, powered by
 the [BettingEdge](https://joschobetting.streamlit.app/) model and funneling to that dashboard;
-it is **not** betting promotion. Channel: [@joscho_analytics](https://www.tiktok.com/@joscho_analytics).
+it is **not** betting promotion. Channel: [@joschoanalytics](https://www.tiktok.com/@joschoanalytics).
 
 ## Quick start
 
@@ -20,8 +20,8 @@ Composition ids live in [`src/Root.tsx`](src/Root.tsx). Finished cuts go in [`fi
 
 | Id | What | Status |
 |----|------|--------|
-| `ChannelIntro` | **Channel trailer (v2, credibility-forward).** ML-engineer credibility + what the channel is (sports analytics, the *why* not just picks) + proof. Grab-first hook. | **Posted** ([id 7660007652818259231](https://www.tiktok.com/@joscho_analytics/video/7660007652818259231)). |
-| `BrianThomas` | **Player deep-dive — "the market is wrong about Brian Thomas Jr."** Full-screen footage with charts floating over it (QB split, TD regression, SHAP). | **Posted** (id 7659945800209927454). |
+| `ChannelIntro` | **Channel trailer (v2, credibility-forward).** ML-engineer credibility + what the channel is (sports analytics, the *why* not just picks) + proof. Grab-first hook. | **Posted** ([id 7660252294327307550](https://www.tiktok.com/@joschoanalytics/video/7660252294327307550)). |
+| `BrianThomas` | **Player deep-dive — "the market is wrong about Brian Thomas Jr."** Full-screen footage with charts floating over it (QB split, TD regression, SHAP). | **Posted** ([id 7660252626046553374](https://www.tiktok.com/@joschoanalytics/video/7660252626046553374)). |
 | `ModelCredibility` | "Beats the spread 64%" model deep-dive. | Built; on the shelf. |
 | `FunnelCTAPreview` | Dev preview of the opt-in dashboard end card. | Utility. |
 
