@@ -3,7 +3,7 @@ import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { SafeZone } from "./SafeZone";
 import { Headline } from "./Headline";
 import { fonts, theme } from "../theme";
-import { DASHBOARD_URL } from "../videos/funnel";
+import { DASHBOARD_URL } from "../videos/shared/funnel";
 
 /**
  * Reusable end card. Drives to my own dashboard, framed as analysis ("see the

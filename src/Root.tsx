@@ -1,10 +1,12 @@
 import React from "react";
 import { AbsoluteFill, Composition } from "remotion";
-import { ChannelIntro } from "./videos/ChannelIntro";
-import { INTRO_DURATION_SECONDS, META as introMeta } from "./videos/intro.data";
-import { ModelCredibility, CREDIBILITY_DURATION_SECONDS } from "./videos/ModelCredibility";
-import { META as credibilityMeta } from "./videos/credibility.data";
-import { LENGTH_TARGETS, type LengthMode } from "./videos/types";
+import { ChannelIntro } from "./videos/channel-intro/ChannelIntro";
+import { INTRO_DURATION_SECONDS, META as introMeta } from "./videos/channel-intro/intro.data";
+import { ModelCredibility, CREDIBILITY_DURATION_SECONDS } from "./videos/model-credibility/ModelCredibility";
+import { META as credibilityMeta } from "./videos/model-credibility/credibility.data";
+import { BrianThomas } from "./videos/brian-thomas/BrianThomas";
+import { BRIANTHOMAS_DURATION_SECONDS } from "./videos/brian-thomas/brianthomas.data";
+import { LENGTH_TARGETS, type LengthMode } from "./videos/shared/types";
 import { Background } from "./components/Background";
 import { FunnelCTA } from "./components/FunnelCTA";
 
@@ -41,6 +43,14 @@ export const RemotionRoot: React.FC = () => {
         id="ChannelIntro"
         component={ChannelIntro}
         durationInFrames={Math.round(INTRO_DURATION_SECONDS * FPS)}
+        fps={FPS}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="BrianThomas"
+        component={BrianThomas}
+        durationInFrames={Math.round(BRIANTHOMAS_DURATION_SECONDS * FPS)}
         fps={FPS}
         width={1080}
         height={1920}

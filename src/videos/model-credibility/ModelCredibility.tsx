@@ -7,16 +7,16 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { Background } from "../components/Background";
-import { SafeZone } from "../components/SafeZone";
-import { Caption } from "../components/Caption";
-import { Headline } from "../components/Headline";
-import { CountUp } from "../components/CountUp";
-import { BarCompare } from "../components/BarCompare";
-import { FollowCTA } from "../components/FollowCTA";
-import { fonts, theme } from "../theme";
+import { Background } from "../../components/Background";
+import { SafeZone } from "../../components/SafeZone";
+import { Caption } from "../../components/Caption";
+import { Headline } from "../../components/Headline";
+import { CountUp } from "../../components/CountUp";
+import { BarCompare } from "../../components/BarCompare";
+import { FollowCTA } from "../../components/FollowCTA";
+import { fonts, theme } from "../../theme";
 import { BEATS, STATS } from "./credibility.data";
-import { DASHBOARD_URL } from "./funnel";
+import { DASHBOARD_URL } from "../shared/funnel";
 
 const Kicker: React.FC<{ children: React.ReactNode; color?: string }> = ({
   children,

@@ -1,0 +1,314 @@
+{
+"hook": [
+{
+"text": "Football's over a month away,",
+"start": 0.0
+},
+{
+"text": "but it's never too early",
+"start": 2.48
+},
+{
+"text": "for a player deep dive.",
+"start": 3.52
+},
+{
+"text": "Let's take a look at",
+"start": 5.04
+},
+{
+"text": "Brian Thomas Jr.",
+"start": 5.9
+}
+],
+"panic": [
+{
+"text": "As a rookie,",
+"start": 0.0
+},
+{
+"text": "BTJ was a top-ten fantasy",
+"start": 1.44
+},
+{
+"text": "receiver.",
+"start": 2.96
+},
+{
+"text": "Then as a sophomore,",
+"start": 4.02
+},
+{
+"text": "his production dropped by over",
+"start": 4.9
+},
+{
+"text": "50% and drafters are",
+"start": 6.06
+},
+{
+"text": "panicking,",
+"start": 7.74
+},
+{
+"text": "dropping him from a top-ten",
+"start": 8.6
+},
+{
+"text": "pick to the 31st receiver",
+"start": 9.78
+},
+{
+"text": "off the board.",
+"start": 11.12
+},
+{
+"text": "My model has him at",
+"start": 12.3
+},
+{
+"text": "wide receiver 17.",
+"start": 13.26
+}
+],
+"disconnect": [
+{
+"text": "But here's what they're missing.",
+"start": 0.0
+},
+{
+"text": "His fantasy points fell 52%",
+"start": 2.38
+},
+{
+"text": "but his share of",
+"start": 3.4
+},
+{
+"text": "the targets barely moved.",
+"start": 5.26
+},
+{
+"text": "He wasn't benched.",
+"start": 6.84
+},
+{
+"text": "He's still a full-time and",
+"start": 7.92
+},
+{
+"text": "an explosive downfield weapon.",
+"start": 9.42
+}
+],
+"tdregression": [
+{
+"text": "So you might ask,",
+"start": 0.0
+},
+{
+"text": "where did the points go?",
+"start": 1.32
+},
+{
+"text": "The answer:",
+"start": 2.54
+},
+{
+"text": "touchdowns.",
+"start": 3.64
+},
+{
+"text": "He went from ten scores",
+"start": 4.42
+},
+{
+"text": "as a rookie to just",
+"start": 5.46
+},
+{
+"text": "two as a sophomore,",
+"start": 6.28
+},
+{
+"text": "while maintaining the same air",
+"start": 7.16
+},
+{
+"text": "yards.",
+"start": 8.54
+},
+{
+"text": "And touchdown rate is one",
+"start": 9.58
+},
+{
+"text": "of the flukiest,",
+"start": 10.6
+},
+{
+"text": "most bounce-back stats in all",
+"start": 11.26
+},
+{
+"text": "of football.",
+"start": 12.5
+},
+{
+"text": "The market is treating bad",
+"start": 13.5
+},
+{
+"text": "luck like a real decline.",
+"start": 14.42
+}
+],
+"qbsplit": [
+{
+"text": "Looking back at his first",
+"start": 0.0
+},
+{
+"text": "two seasons with Mac",
+"start": 1.5
+},
+{
+"text": "Jones,",
+"start": 3.16
+},
+{
+"text": "BTJ played like a top-12",
+"start": 4.1
+},
+{
+"text": "receiver.",
+"start": 5.46
+},
+{
+"text": "With Trevor Lawrence he has",
+"start": 6.48
+},
+{
+"text": "been a WR3.",
+"start": 7.9
+},
+{
+"text": "I'm betting that is a",
+"start": 9.46
+},
+{
+"text": "fluke BTJ had the",
+"start": 10.32
+},
+{
+"text": "best statistical output for a",
+"start": 12.08
+},
+{
+"text": "receiver in Mac Jones's entire",
+"start": 13.5
+},
+{
+"text": "career.",
+"start": 15.0
+},
+{
+"text": "Meanwhile Lawrence has fed a",
+"start": 16.02
+},
+{
+"text": "1,000-yard deep threat before,",
+"start": 17.66
+},
+{
+"text": "in Calvin Ridley.",
+"start": 19.18
+}
+],
+"shap": [
+{
+"text": "My model reinforces these points.",
+"start": 0.0
+},
+{
+"text": "It doesn't overreact to one",
+"start": 2.46
+},
+{
+"text": "down year the elite",
+"start": 3.74
+},
+{
+"text": "rookie season still counts.",
+"start": 5.08
+},
+{
+"text": "Add first-round pedigree,",
+"start": 7.0
+},
+{
+"text": "a full-time role,",
+"start": 8.22
+},
+{
+"text": "his age-23 season,",
+"start": 9.24
+},
+{
+"text": "and lackluster competition for targets",
+"start": 10.6
+},
+{
+"text": "behind him,",
+"start": 12.24
+},
+{
+"text": "and BTJ is a clear",
+"start": 12.98
+},
+{
+"text": "value.",
+"start": 13.96
+}
+],
+"verdict": [
+{
+"text": "So here's the edge:",
+"start": 0.0
+},
+{
+"text": "a WR31 price for a",
+"start": 1.66
+},
+{
+"text": "top-17 projection a 6th-round",
+"start": 3.54
+},
+{
+"text": "dart with a 2nd-round ceiling.",
+"start": 5.88
+},
+{
+"text": "The risk is real,",
+"start": 7.82
+},
+{
+"text": "but it's already baked in.",
+"start": 9.0
+}
+],
+"cta": [
+{
+"text": "Follow for more sports analytics,",
+"start": 0.68
+},
+{
+"text": "and check out my site",
+"start": 2.16
+},
+{
+"text": "for the full breakdown.",
+"start": 3.28
+}
+]
+}

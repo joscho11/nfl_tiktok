@@ -9,15 +9,15 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { Background } from "../components/Background";
-import { SafeZone } from "../components/SafeZone";
-import { Caption } from "../components/Caption";
-import { Headline } from "../components/Headline";
-import { CountUp } from "../components/CountUp";
-import { FollowCTA } from "../components/FollowCTA";
-import { fonts, theme } from "../theme";
+import { Background } from "../../components/Background";
+import { SafeZone } from "../../components/SafeZone";
+import { Caption } from "../../components/Caption";
+import { Headline } from "../../components/Headline";
+import { CountUp } from "../../components/CountUp";
+import { FollowCTA } from "../../components/FollowCTA";
+import { fonts, theme } from "../../theme";
 import { BEATS, STATS } from "./intro.data";
-import { DASHBOARD_URL } from "./funnel";
+import { DASHBOARD_URL } from "../shared/funnel";
 
 const Kicker: React.FC<{ children: React.ReactNode; color?: string }> = ({
   children,
@@ -75,10 +75,10 @@ const HookScene: React.FC = () => (
   <SafeZone>
     <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center" }}>
       <Kicker>WELCOME</Kicker>
-      <Headline size={128}>THE REAL NUMBERS</Headline>
-      <div style={{ height: 10 }} />
-      <Headline size={128} color={theme.edge} delay={6}>
-        NOT HOT TAKES
+      <Headline size={112}>EVERYONE'S GOT A HOT TAKE.</Headline>
+      <div style={{ height: 14 }} />
+      <Headline size={150} color={theme.edge} delay={6}>
+        I'VE GOT A MODEL.
       </Headline>
     </div>
   </SafeZone>
@@ -88,13 +88,13 @@ const IntroScene: React.FC = () => (
   <SafeZone>
     <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center" }}>
       <Kicker>WHO'S BEHIND IT</Kicker>
-      <Headline size={150}>I'M JOSEPH</Headline>
-      <div style={{ height: 44 }} />
-      <ChipRow items={["FOOTBALL", "BASKETBALL", "SOCCER"]} startAt={12} />
+      <Headline size={140}>I'M JOSEPH</Headline>
+      <div style={{ height: 38 }} />
+      <ChipRow items={["M.S. DATA SCIENCE", "ML ENGINEER"]} startAt={12} />
       <div
-        style={{ marginTop: 26, fontFamily: fonts.body, fontWeight: 700, fontSize: 40, color: theme.textDim }}
+        style={{ marginTop: 24, fontFamily: fonts.body, fontWeight: 700, fontSize: 38, color: theme.textDim }}
       >
-        if there's data in it, we break it down
+        I build prediction models for a living — now pointed at sports.
       </div>
     </div>
   </SafeZone>
@@ -108,15 +108,18 @@ const ProofScene: React.FC = () => (
         A site modeling the NFL season
       </div>
       <ChipRow items={["FANTASY", "DFS", "SPREAD MODEL"]} startAt={6} />
-      <div style={{ height: 56 }} />
+      <div style={{ height: 52 }} />
       <div style={{ display: "flex", alignItems: "baseline", gap: 18 }}>
-        <CountUp to={STATS.atsPct} suffix="%" durationInFrames={40} color={theme.edge} fontSize={210} />
+        <CountUp to={STATS.atsPct} decimals={1} suffix="%" durationInFrames={40} color={theme.edge} fontSize={200} />
         <span style={{ fontFamily: fonts.body, fontWeight: 800, fontSize: 46, color: theme.text }}>
           ATS
         </span>
       </div>
       <div style={{ fontFamily: fonts.body, fontWeight: 700, fontSize: 38, color: theme.textDim }}>
-        on top picks · out-of-sample {STATS.seasonsFrom}–{String(STATS.seasonsTo).slice(2)}
+        on top picks · out-of-sample
+      </div>
+      <div style={{ marginTop: 14, fontFamily: fonts.body, fontWeight: 700, fontSize: 32, color: theme.edge }}>
+        ▶ code public on GitHub
       </div>
     </div>
   </SafeZone>
@@ -172,7 +175,7 @@ export const ChannelIntro: React.FC = () => {
   return (
     <AbsoluteFill style={{ backgroundColor: theme.bg }}>
       {/* WAV, not the source m4a: Remotion muxes a silent track from some AAC files. */}
-      <Audio src={staticFile("audio/intro.wav")} />
+      <Audio src={staticFile("channel-intro/intro.wav")} />
       <Background />
       {BEATS.map((beat) => {
         const from = Math.round(cursor * fps);

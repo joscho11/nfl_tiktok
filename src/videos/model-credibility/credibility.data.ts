@@ -9,8 +9,8 @@
  * `seconds` is the estimated VO length of each beat. When Joseph records the real
  * voiceover, retime by replacing these with the actual per-line durations.
  */
-import type { Beat, VideoMeta } from "./types";
-import { DASHBOARD_URL } from "./funnel";
+import type { Beat, VideoMeta } from "../shared/types";
+import { DASHBOARD_URL } from "../shared/funnel";
 
 export const META: VideoMeta = {
   id: "ModelCredibility",

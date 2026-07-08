@@ -2,13 +2,20 @@ node_modules/
 out/
 .remotion/
 
-# Voiceover / audio assets: personal recordings + large binaries.
-# The folder is kept in git via public/audio/.gitkeep; the media stays local.
-public/audio/*.mp3
-public/audio/*.wav
-public/audio/*.m4a
-public/audio/*.aac
-public/audio/*.mov
+# Media assets (voiceover, clips, images) live under public/<video>/ but stay local:
+# personal recordings + third-party (copyrighted) photos/video should never be committed.
+public/**/*.mp3
+public/**/*.wav
+public/**/*.m4a
+public/**/*.aac
+public/**/*.mov
+public/**/*.mp4
+public/**/*.webm
+public/**/*.jpg
+public/**/*.jpeg
+public/**/*.png
+public/**/*.webp
+public/**/*.gif
 
 # OS / editor cruft
 .DS_Store

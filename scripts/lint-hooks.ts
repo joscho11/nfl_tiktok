@@ -7,7 +7,7 @@
  *   npm run lint:hooks
  */
 import { discover } from "./_discover";
-import { HOOK_MAX_WORDS, LENGTH_TARGETS, totalSeconds, wordCount, type LengthMode } from "../src/videos/types";
+import { HOOK_MAX_WORDS, LENGTH_TARGETS, totalSeconds, wordCount, type LengthMode } from "../src/videos/shared/types";
 
 async function main() {
   let warnings = 0;
