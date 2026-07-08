@@ -1,7 +1,7 @@
 import type { Beat } from "./types";
 
-/** My own product — the BettingEdge dashboard (from BettingEdgeContinued/CLAUDE.md). NOT a sportsbook. */
-export const DASHBOARD_URL = "joschobetting.streamlit.app";
+/** My own product — the JoScho Analytics dashboard (BettingEdgeContinued repo). NOT a sportsbook. */
+export const DASHBOARD_URL = "joschoanalytics.streamlit.app";
 
 /**
  * STANDARD closing beat = follow-primary (see FollowCTA). On a cold-start account
