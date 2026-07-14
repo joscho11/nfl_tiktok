@@ -10,7 +10,7 @@ FULLY in force on the website surface — nothing loosens there.
 | Surface | Where | Law |
 |---|---|---|
 | **WEBSITE** | `BettingEdgeContinued` repo: the Draft Board tab, READMEs, GUIDEs, PREREGISTRATION, Film Room copy + `video_breakdowns/*.md`, the content sourcing sheets — all repo copy | The existing content law, unchanged: disagreements described never verdicts, aggregate-only validation, full forbidden list, licensed labels verbatim |
-| **TIKTOK** | `nfl_tiktok` repo: every `SCRIPT.md`, `*.data.ts` beat (`vo` + `caption`), rendered video, posted caption on @joscho_analytics | An OPINION/TAKES channel in my voice. Player-level takes, narratives, and draft opinions are allowed and are the point. This floor below is the only law. |
+| **TIKTOK** | `nfl_tiktok` repo: every `SCRIPT.md`, `*.data.ts` beat (`vo` + `caption`), rendered video, posted caption on @joschoanalytics | An OPINION/TAKES channel in my voice. Player-level takes, narratives, and draft opinions are allowed and are the point. This floor below is the only law. |
 
 The website stays the no-spin reference layer; every TikTok CTA points at it. **Film Room
 breakdown files live in the WEBSITE repo and follow website law**, even when they describe
