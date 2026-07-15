@@ -1,80 +1,91 @@
-# Video 03 — Rhamondre Stevenson: my flag on the league's most efficient back
+# Video 03 — Rhamondre Stevenson: the efficiency, and the honest catch
 
-**REWRITTEN 2026-07-13 as a narrative TAKE under `CONTENT_POLICY.md`** (TikTok = my
-opinion channel; the website stays the no-spin reference layer). The take is MINE —
-the board does not call him mispriced (gap +1, H7 null; both deliberately uncited) and
-no line here may imply it does. Every stat is verified in the per-stat table in
-`rhamondre-stevenson.data.ts`. ADP is LIVE — re-pull day of render (pick 74 / RB28 /
-"three rounds earlier").
+**Deep-dive rewrite 2026-07-14, VO run through stop-slop** (TAKE, under
+`CONTENT_POLICY.md`). The efficiency hook held up under the tape; the counter got
+sharper (Henderson outproduced him), so beat 5 carries it out loud. The take is mine;
+the board never calls Stevenson underpriced. Every number is verified in the `.data.ts`
+header (NGS 2025 + `raw_dataset.csv`). ADP is LIVE — re-pull the day of render.
 
-**Delivery:** punchy, mine. The flag beat is the thesis — plant it like you mean it.
-The stake beat is flat honesty, no mumbling. Read it like you talk.
+**Delivery:** this is you talking, not reading. Beat 2 is the substance — slow down and
+let "a hundred seventy-six yards" land. Beat 5 is flat honesty; don't dress it up, it's
+what makes the flag credible. Read every line aloud; if it doesn't sound like you, change it.
 
-**Recording:** one clip per beat, `.m4a`, all-lowercase, into
-`public/rhamondre-stevenson/`: `hook.m4a`, `fear.m4a`, `flag.m4a`, `case.m4a`,
-`stake.m4a`, `cta.m4a`.
+**Recording** → `public/rhamondre-stevenson/`, all-lowercase `.m4a`:
+`hook`, `why`, `tension`, `flag`, `otherside`, `cta`.
 
 ---
 
 ## Beat 1 — HOOK (~7s)
 
-> Last season, Rhamondre Stevenson gained more rushing yards over expected per carry
-> than any qualified running back in football. Number one — out of forty-five.
-> Ahead of Derrick Henry.
+> Last year the most efficient running back in football, by yards over expected per
+> carry, wasn't Derrick Henry or Bijan Robinson. It was Rhamondre Stevenson. First out
+> of forty-five.
 
-[ON-SCREEN: bold stat card — "RYOE/carry: #1 of 45 qualified RBs (2025)" — Stevenson
-1.361 / Cook 1.174 / Henry 1.119 bar chart over clean footage.]
+[ON-SCREEN: RYOE/carry leaderboard bars — Stevenson 1.36 (#1) / Cook 1.17 / Henry 1.12 /
+Dobbins 1.08 / Achane 1.03. "#1 of 45 qualified · 98th %ile · 130 carries."]
 
-## Beat 2 — THE FEAR (~6s)
+*The surprise is the name — you expect Henry or Bijan, it's Stevenson. Land it flat.*
 
-> So why is he going twenty-eighth at the position, pick seventy-four? One word:
-> Henderson. The market's priced the committee fear all the way in — TreVeyon
-> Henderson goes three rounds earlier.
+## Beat 2 — THE WHY (~12s)
 
-[ON-SCREEN: price card — Henderson ~pick 41 (RB19) vs Stevenson ~pick 74 (RB28).]
+> And he earned it. A third of his carries ran into a stacked box, eight defenders or
+> more, the same wall the rookie behind him saw. Stevenson hit the hole quicker and made
+> more of it. A hundred seventy-six yards over what his blocking gave him, and most per
+> carry in the league.
 
-## Beat 3 — THE FLAG (~5s)
+[ON-SCREEN: expected-vs-actual — 427 expected → 603 actual, "+176 over expected." Chips:
+"vs 8+ box: 31.5% of carries" · "to the hole: 2.68s vs Henderson's 2.92."]
 
-> My read? That fear is overpriced. This is my talent pick of draft season, and I'm
-> planting the flag right here.
+*The substance beat. This is the box-adjusted "why he was #1." Let it breathe.*
 
-[ON-SCREEN: "MY READ: the fear is overpriced." Flag graphic. This is MY take — no
-model/board attribution anywhere on screen.]
+## Beat 3 — TENSION (~10s)
 
-## Beat 4 — MY CASE (~10s)
+> So why is he the twenty-eighth back off the board, three rounds after his own teammate?
+> One reason: TreVeyon Henderson. The rookie out-carried him one-eighty to one-thirty last
+> season and outscored him while Stevenson missed a month. Drafters are paying for the
+> carries.
 
-> My case. One — it wasn't close: he beat the number-two back by more than number two
-> beat number five. Two — my calibrated range, which already prices him as a committee
-> back, still tops out at two hundred twelve points. That's an RB-twelve season if he
-> hits the ceiling. Three — the market itself paid a third-round pick for this exact
-> player in twenty twenty-three. Now he costs a seventh.
+[ON-SCREEN: price pills — Henderson RB19 (~pick 41) vs Stevenson RB28 (~pick 74); "2025
+carries: Henderson 180 · Stevenson 130 — the rookie won the job."]
 
-[ON-SCREEN: three quick cards — (1) spacing chart #1 vs #2 vs #5; (2) range strip
-57–212 pts with the 212 end flagged "≈ RB12 season"; (3) ADP history 2023 pick 32 →
-2026 pick 74.]
+## Beat 4 — THE FLAG (~7s)
 
-## Beat 5 — THE STAKE (~5.5s)
+> My read: drafters are chasing the carries and forgetting who the better runner is. RB28
+> is too cheap for that guy. I'm planting my flag on Stevenson.
 
-> Honest part: I'll get some of these wrong — that's what takes are. The committee
-> risk is real, and if the split goes sideways this ages badly. But elite per-carry
-> talent at a discount price? I'm standing on it.
+[ON-SCREEN: clean footage + "MY READ: RB28 is too cheap." No model/board attribution on
+screen — this is my call.]
 
-[ON-SCREEN: clean footage, one line: "I'll get some wrong. Not this one." — conviction
-without certainty words.]
+## Beat 5 — THE OTHER SIDE (~10s)
 
-## Beat 6 — CTA (~6.5s)
+> Now, I could be wrong, and I won't hide it. Henderson was the more productive back last
+> season, and he's younger. If New England just hands him the job, this take falls apart.
+> I'm buying the talent and the price, and I'll live with the risk.
 
-> That's my take. The raw numbers with none of my spin — the ranges, the percentages,
-> every caveat — are free on my board: joschoanalytics dot streamlit dot app, slash
-> draft board. Link in bio. Follow for the next flag.
+[ON-SCREEN: 2025 head-to-head production bars — Stevenson vs Henderson on carries (130/180),
+rush yds (603/911), rush TD (7/9), fantasy (147/171). Henderson longer on all — the honest catch.]
 
-[ON-SCREEN: FunnelCTA card → joschoanalytics.streamlit.app/draft-board + follow.]
+*Do not soften this. The counter is what makes it a take instead of a hot take.*
+
+## Beat 6 — CTA (~9s)
+
+> But you're paying backup money for the most efficient runner in the league, on a Drake
+> Maye offense that just took a real jump. My board gives him an RB12 ceiling. The whole
+> range and every caveat, none of my spin, are all on there. Link's in my bio. Follow for
+> the next flag.
+
+[ON-SCREEN: range strip 58 → 133 → 212 "≈ RB12"; chip "Drake Maye 2025: 31 TD / 8 INT";
+then end-card → joschoanalytics.streamlit.app/draft-board + follow.]
 
 ---
 
-**Floor self-check (CONTENT_POLICY.md):** (1) no certainty words — "standing on it"
-is conviction, not a guarantee; (2) no record/accuracy claims; (3) take owned as mine
-throughout ("my read / my case / my flag"); the one board cite ("my calibrated range…
-212") is exact and describes the range, not an endorsement of the take; (4) every stat
-in the data.ts verification table with file + row; (5) H7 and the +1 gap are omitted,
-never denied; (6) no promo language; (7) first-person singular throughout.
+**Floor self-check (CONTENT_POLICY.md):** (1) no certainty words — "too cheap," "planting
+my flag," conviction not guarantee; (2) no record/accuracy claims about me (Maye's stats are
+his); (3) take owned as mine throughout, never the model's; the board's +1 gap and H7 null are
+omitted, never denied; (4) every stat verified (NGS + raw_dataset, table in `.data.ts`);
+(5) the Henderson counter is stated in full; (6) no promo language; (7) first-person singular.
+
+**stop-slop pass:** cut the "that's not the line, that's him" flip (beat 2), the three-part
+"more productive / younger / ascending" list (beat 5), the "Real talk —" and "My read?"
+throat-clears, the "market's buying the workload" pull-quote ender, and the stacked em-dashes.
+Rhythm varied (short "First out of forty-five." against longer lines). Self-score ~41/50.
