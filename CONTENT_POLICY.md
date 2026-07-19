@@ -5,6 +5,15 @@ this repo. It supersedes the TikTok-side application of the website content fenc
 (`betting-domain-reference` / the board's forbidden-language list). That fence remains
 FULLY in force on the website surface — nothing loosens there.
 
+**Amended by Joseph, 2026-07-17.** Two changes below, research law unchanged: (1) sourcing
+route (b) now allows *verified* facts — local **or** external — with every external fact
+carrying its source URL + access date in the `.data.ts` header, and any live-ish external
+(depth-chart slot, injury/health tag, contract/roster status) flagged RE-VERIFY DAY OF
+RENDER, the same freshness law as ADP; (2) the Stevenson worked example is now doctrine-only
+(that video was never made; video 03 is `jordyn-tyson`). The research fences
+(no new signal-vs-outcome analysis, one-shot tests, sealed seasons, no unregistered joins)
+loosen zero.
+
 ## The two surfaces
 
 | Surface | Where | Law |
@@ -39,9 +48,11 @@ steal / buy / fade / target / reach / draft-him verdicts / tier talk / rookie op
 
 ## The take-vs-model attribution rule (floor items 3 + 5, worked example)
 
-**Stevenson (video 03).** The shipped board has his Gap at **+1** (projections RB27 vs
+**Worked example — Stevenson (DOCTRINE ONLY; this video was never made, take DROPPED by
+Joseph 2026-07-17; video 03 is `jordyn-tyson`).** Kept because it illustrates the attribution
+rule cleanly. At the time, the shipped board had his Gap at **+1** (projections RB27 vs
 price RB28 — essentially no disagreement) and the pre-registered H7 test found elite
-efficiency is **not predictive of market error**. Therefore:
+efficiency is **not predictive of market error**. So, as a general illustration:
 
 - ALLOWED: "I think the committee fear is overpriced. That's my read, and I'm planting
   a flag on it." (Mine, clearly owned.)
@@ -56,11 +67,15 @@ efficiency is **not predictive of market error**. Therefore:
 ## Data discipline still binds (this policy loosens language, not research law)
 
 A take may be sourced ONLY from (a) already-published board columns cited exactly, or
-(b) locally verified descriptive facts. **No new signal-vs-outcome analysis may be
-computed ad hoc to arm a take** — the research fences (one-shot tests, sealed seasons,
-no unregistered joins) bind the data layer regardless of content surface. A stat that
-would need fresh research or an outside pull goes on the script's
-"wanted — needs Joseph's sourcing" list instead of being invented or approximated.
+(b) verified facts — local (nflverse / the repos) **or** external. **Every external fact
+carries its source URL and an access date in the video's `.data.ts` header**, and any
+live-ish external (depth-chart slot, injury/health tag, contract or roster status) is
+flagged **RE-VERIFY DAY OF RENDER** — the same freshness law that already binds Sleeper ADP.
+**No new signal-vs-outcome analysis may be computed ad hoc to arm a take** — the research
+fences (one-shot tests, sealed seasons, no unregistered joins) bind the data layer
+regardless of content surface, and a stat that would need fresh research may never be
+invented or approximated: it goes on the script's "wanted — needs Joseph's sourcing" list
+instead.
 
 ## Enforcement
 
